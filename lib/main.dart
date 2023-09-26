@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:superbase_learn/pages/home_page.dart';
+import 'package:superbase_learn/pages/insert%20data.dart';
 import 'package:superbase_learn/pages/login_page.dart';
+import 'package:superbase_learn/pages/show_data.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Countries',
-      home: LoginPage(),
+      home:ShowData(),
     );
   }
 }
